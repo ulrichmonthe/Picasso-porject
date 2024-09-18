@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.page-container{
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 90vh;
+    box-sizing: border-box;
+}
+
+.all-content{
+    display: flex;
+    flex-direction: column;
+    align-content: normal;
+    height: 100%;
+    max-width: 100%;
+}
+
+.bottom-content > img {
+    width: 100%;
+    padding-top: 10px;
+    height: auto;
+
+}
+
+.top-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    height: 40vh;
+}
+@media (max-width: 768px) {
+    .responsive-image {
+        width: 250px; /* Two images per row for medium screens */
+    }
+    .page-container{
+        max-height: 50vh;}
+ }
+
+
+@media (max-width: 768px) {
+    .responsive-image1 {
+        display: none;}
+    .page-container{
+        max-height: 50vh;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .responsive-image {
+        width: 100%; /* One image per row for small screens */
+        display: none;
+    }
+}
+
+.form {
+    width: 100%;
+    height: 30vh;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    padding-top: 100px;
+}
+
+#position-holder{
+    position: relative;
+    height: 10vh;
+}
+.submit_form.php{
+    width: 40%;
+}
+
+button{
+    background-color: rgb(102, 102, 246);
+    color: white;
+}
